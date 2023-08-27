@@ -23,9 +23,23 @@ The `.zshrc` configuration file includes:
 
 ## Installation
 
-To use this configuration, follow these steps:
+### Linux
 
-1. Ensure you have Zsh installed on your system. If not, you can install it using your package manager. For example, on Ubuntu, you would use `sudo apt install zsh`.
+To use this configuration on a Linux system, follow these steps:
+
+1. Ensure you have Zsh and Git installed on your system. If not, you can install them using your package manager. For example, on Ubuntu, you would use `sudo apt install zsh git`.
+
+2. Clone this repository to your local machine using `git clone https://github.com/<username>/zshrc-config.git`.
+
+3. Copy the `.zshrc` file to your home directory using `cp zshrc-config/.zshrc ~/.zshrc`.
+
+4. Source the new `.zshrc` file using `source ~/.zshrc`.
+
+### macOS
+
+To use this configuration on a macOS system, follow these steps:
+
+1. Ensure you have Zsh and Git installed on your system. If not, you can install them using Homebrew with `brew install zsh git`.
 
 2. Clone this repository to your local machine using `git clone https://github.com/<username>/zshrc-config.git`.
 
