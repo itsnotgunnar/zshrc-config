@@ -1,6 +1,6 @@
 # zshrc-config
 
-This repository contains a configuration file for the Zsh shell, `.zshrc`. This configuration is designed to enhance your terminal experience with useful functions, aliases, plugins, and more. 
+This repository contains a configuration file for the Zsh shell, `.zshrc`. This configuration is designed to enhance your terminal experience, minimizing the load on the user, including useful functions, aliases, plugins, and more. 
 
 ## Contents
 
