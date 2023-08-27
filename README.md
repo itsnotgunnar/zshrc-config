@@ -29,11 +29,13 @@ To use this configuration on a Linux system, follow these steps:
 
 1. Ensure you have Zsh and Git installed on your system. If not, you can install them using your package manager. For example, on Ubuntu, you would use `sudo apt install zsh git`.
 
-2. Clone this repository to your local machine using `git clone https://github.com/<username>/zshrc-config.git`.
+2. Install Ruby and the colorls gem. On Ubuntu, you can do this with `sudo apt install ruby` and then `gem install colorls`.
 
-3. Copy the `.zshrc` file to your home directory using `cp zshrc-config/.zshrc ~/.zshrc`.
+3. Clone this repository to your local machine using `git clone https://github.com/<username>/zshrc-config.git`.
 
-4. Source the new `.zshrc` file using `source ~/.zshrc`.
+4. Copy the `.zshrc` file to your home directory using `cp zshrc-config/.zshrc ~/.zshrc`.
+
+5. Source the new `.zshrc` file using `source ~/.zshrc`.
 
 ### macOS
 
@@ -41,22 +43,30 @@ To use this configuration on a macOS system, follow these steps:
 
 1. Ensure you have Zsh and Git installed on your system. If not, you can install them using Homebrew with `brew install zsh git`.
 
-2. Clone this repository to your local machine using `git clone https://github.com/<username>/zshrc-config.git`.
+2. Install Ruby and the colorls gem. You can do this with `brew install ruby` and then `gem install colorls`.
 
-3. Copy the `.zshrc` file to your home directory using `cp zshrc-config/.zshrc ~/.zshrc`.
+3. Clone this repository to your local machine using `git clone https://github.com/<username>/zshrc-config.git`.
 
-4. Source the new `.zshrc` file using `source ~/.zshrc`.
+4. Copy the `.zshrc` file to your home directory using `cp zshrc-config/.zshrc ~/.zshrc`.
+
+5. Source the new `.zshrc` file using `source ~/.zshrc`.
 
 ## Setting Up
 
 Some parts of the configuration require additional setup:
 
-- The `backupToDrive` function requires you to replace `<username>` with your actual username in the path to your Google Drive.
+- The `backupToDrive` function requires you to replace `<username>` with your actual username in the path to your Google Drive. This function copies the specified file to your Google Drive folder. Make sure you have Google Drive set up on your system and adjust the path in the function accordingly.
 
-- The `zsh_add_plugin` function requires you to set `ZDOTDIR` to the directory where you want to store your Zsh plugins.
+- The `zsh_add_plugin` function requires you to set `ZDOTDIR` to the directory where you want to store your Zsh plugins. This can be any directory of your choice. Once you've decided on a directory, set `ZDOTDIR` to its path like so: `export ZDOTDIR=/path/to/your/directory`.
 
-- The configuration for auto-completion and suggestion features requires the `zsh-autosuggestions` and `zsh-autocomplete` plugins. You can install these using your package manager or manually from their GitHub repositories.
+- The configuration for auto-completion and suggestion features requires the `zsh-autosuggestions` and `zsh-autocomplete` plugins. You can install these using your package manager or manually from their GitHub repositories. For manual installation, clone the repositories into your `$ZSH_CUSTOM/plugins` directory, then add the plugins to your plugin list in your `.zshrc` file.
 
-- The syntax highlighting configuration requires the `zsh-syntax-highlighting` plugin. You can install this using your package manager or manually from its GitHub repository.
+- The syntax highlighting configuration requires the `zsh-syntax-highlighting` plugin. You can install this using your package manager or manually from its GitHub repository. For manual installation, clone the repository into your `$ZSH_CUSTOM/plugins` directory, then add the plugin to your plugin list in your `.zshrc` file.
 
 - The API keys at the end of the file should be replaced with your actual API keys.
+
+- The `conda` command requires Anaconda to be installed on your system. You can download it from the [official website](https://www.anaconda.com/products/distribution) and follow the installation instructions there. For a minimal installation, consider using Miniconda instead.
+
+- The `yt-dlp` command requires the yt-dlp program. You can install it with `pip install yt-dlp`.
+
+- The `ack` command requires the ack tool. You can install it with `brew install ack` on macOS or `sudo apt install ack` on Linux.
