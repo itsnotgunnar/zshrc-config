@@ -31,9 +31,9 @@ To use this configuration on a Linux system, follow these steps:
 
 1. Ensure you have all of the necessary packages installed on your system. If not, you can install them using your package manager. For example, on Ubuntu, you would use `sudo apt install zsh git ruby ruby-dev ack neofetch yt-dlp zsh-syntax-highlighting zsh-autosuggestions fzf vim nano nvm`.
 
-2. Install Ruby and the colorls gem. On Ubuntu, you can do this with `sudo apt install ruby ruby-dev` and then `sudo gem install colorls`.
+2. Install the colorls gem. On Ubuntu, you can do this with `sudo gem install colorls`.
 
-3. Clone this repository to your local machine using `git clone https://github.com/<username>/zshrc-config.git`.
+3. Clone this repository and zsh-autocomplete to your local machine using `git clone https://github.com/<username>/zshrc-config.git && git clone https://github.com/marlonrichert/zsh-autocomplete && sudo mv zsh-autocomplete /usr/share/`.
 
 4. Copy the `.zshrc` file to your home directory using `cp zshrc-config/.zshrc ~/.zshrc`.
 
@@ -49,7 +49,7 @@ To use this configuration on a macOS system, follow these steps:
 
 2. Install Ruby and the colorls gem. You can do this with `brew install ruby ruby-dev` and then `sudo gem install colorls`.
 
-3. Clone this repository to your local machine using `git clone https://github.com/<username>/zshrc-config.git`.
+3. Clone this repository and zsh-autocomplete to your local machine using `git clone https://github.com/<username>/zshrc-config.git && git clone https://github.com/marlonrichert/zsh-autocomplete && sudo mv zsh-autocomplete /usr/share/`.
 
 4. Copy the `.zshrc` file to your home directory using `cp zshrc-config/.zshrc ~/.zshrc`.
 
