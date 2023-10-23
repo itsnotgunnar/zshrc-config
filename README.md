@@ -29,7 +29,7 @@ The `.zshrc` configuration file includes:
 
 To use this configuration on a Linux system, follow these steps:
 
-1. Ensure you have Zsh and Git installed on your system. If not, you can install them using your package manager. For example, on Ubuntu, you would use `sudo apt install zsh git`.
+1. Ensure you have all of the necessary packages installed on your system. If not, you can install them using your package manager. For example, on Ubuntu, you would use `sudo apt install zsh git ruby ruby-dev ack neofetch yt-dlp zsh-syntax-highlighting zsh-autosuggestions fzf vim nano nvm`.
 
 2. Install Ruby and the colorls gem. On Ubuntu, you can do this with `sudo apt install ruby ruby-dev` and then `sudo gem install colorls`.
 
@@ -37,7 +37,9 @@ To use this configuration on a Linux system, follow these steps:
 
 4. Copy the `.zshrc` file to your home directory using `cp zshrc-config/.zshrc ~/.zshrc`.
 
-5. Source the new `.zshrc` file using `source ~/.zshrc`.
+5.  
+
+6. Source the new `.zshrc` file using `source ~/.zshrc`.
 
 ### macOS
 
@@ -68,7 +70,3 @@ Some parts of the configuration require additional setup:
 - The API keys at the end of the file should be replaced with your actual API keys.
 
 - The `conda` command requires Anaconda to be installed on your system. You can download it from the [official website](https://www.anaconda.com/products/distribution) and follow the installation instructions there. For a minimal installation, consider using Miniconda instead.
-
-- The `yt-dlp` command requires the yt-dlp program. You can install it with `pip install yt-dlp`.
-
-- The `ack` command requires the ack tool. You can install it with `brew install ack` on macOS or `sudo apt install ack` on Linux.
