@@ -43,7 +43,7 @@ To use this configuration on a Linux system, follow these steps:
 
 To use this configuration on a macOS system, follow these steps:
 
-1. Ensure you have Zsh and Git installed on your system. If not, you can install them using Homebrew with `brew install zsh git ruby ruby-dev`.
+1. Ensure you have Zsh and Git installed on your system. If not, you can install them using Homebrew with `brew install zsh git`.
 
 2. Install Ruby and the colorls gem. You can do this with `brew install ruby ruby-dev` and then `sudo gem install colorls`.
 
