@@ -29,7 +29,7 @@ The `.zshrc` configuration file includes:
 
 To use this configuration on a Linux system, follow these steps:
 
-1. Ensure you have all of the necessary packages installed on your system. If not, you can install them using your package manager. For example, on Ubuntu, you would use `sudo apt install zsh git ruby ruby-dev ack neofetch yt-dlp zsh-syntax-highlighting zsh-autosuggestions fzf vim nano nvm`.
+1. Ensure you have all of the necessary packages installed on your system. If not, you can install them using your package manager. For example, on Ubuntu, you would use `sudo apt install zsh git ruby ruby-dev ack neofetch yt-dlp zsh-syntax-highlighting zsh-autosuggestions fzf vim nano nvm python3 pip`.
 
 2. Install the colorls gem. On Ubuntu, you can do this with `sudo gem install colorls`.
 
