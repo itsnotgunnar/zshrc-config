@@ -87,6 +87,7 @@ if [ -f /usr/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh ]; then
   zstyle ':autocomplete:tab:*' insert-unambiguous yes
   zstyle ':autocomplete:tab:*' widget-style menu-select
   zstyle ':autocomplete:*' min-input 2
+  # These bindings may cause trouble, depending on your specific system
   bindkey $key[^[[A] up-line-or-history
   bindkey $key[Down] down-line-or-history
 fi
