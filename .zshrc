@@ -214,13 +214,13 @@ export ZSH_COMPDUMP="${ZDOTFILES}/.zcompdump"
 
 # API Keys
 
-export OPENAI_API_KEY=""
+export OPENAI_API_KEY=''
 export OPENAI_ORGANIZATION=''
 export GITHUB_API_KEY=''
 export GITHUB_USERNAME=''
 export GOOGLE_API_KEY=''
-export GITHUB_SSH='SHA256:w0s5ZZYEY/6p8TtQqsq6uRN2lV6r9CvyEun12OsiHHU'
-export GPG_KEY_ID='0DB5026F0E4740C76D80E16F7276AD2A288EFD34'
+export GITHUB_SSH=''
+export GPG_KEY_ID=''
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
