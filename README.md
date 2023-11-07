@@ -85,7 +85,7 @@ To use this configuration on a Mac system, follow these steps:
 
 5. Ensure that the macOS equivalent of `ubuntu.sh` (let's call it `macos.sh`) has the necessary permissions:
    ```sh
-   chmod +x macos.sh
+   chmod +x mac.sh
    ```
 
 6. Run the script, which will install all of the necessary packages and repos on your system (excluding conda), as well as set Zsh as your default terminal.
