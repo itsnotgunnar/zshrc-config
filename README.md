@@ -8,7 +8,7 @@ Welcome to the `zshrc-config` repository, your one-stop solution to supercharge 
 
 Our `.zshrc` configuration file is packed with a plethora of features designed to optimize your terminal usage:
 
-- **Custom Greeting & System Info**: Start each terminal session with an uplifting message and immediate system insights via `neofetch`.
+- ***Custom Greeting & System Info**: Start each terminal session with an uplifting message and immediate system insights via `neofetch`.
 
 - **Enhanced Prompt**: Experience a vibrant, information-rich prompt that includes your machine name, current time, and working directory.
 
