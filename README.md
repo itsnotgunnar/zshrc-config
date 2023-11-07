@@ -2,6 +2,8 @@
 
 Welcome to the `zshrc-config` repository, your one-stop solution to supercharge your Zsh shell experience. This repository is home to a meticulously crafted `.zshrc` configuration file that aims to streamline your command-line workflow, enhance functionality, and introduce a touch of personal flair to your terminal.
 
+![image](zshrc-example.png)
+
 ## Features
 
 Our `.zshrc` configuration file is packed with a plethora of features designed to optimize your terminal usage:
