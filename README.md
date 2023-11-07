@@ -123,7 +123,7 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project will be licensed under the MIT License, once it is more comprehensive and worth doing.
 
 ## Acknowledgments
 
