@@ -1,9 +1,6 @@
 #!/bin/sh
 
-sudo apt install git \
-&& git clone https://github.com/itsnotgunnar/zshrc-config.git \
-&& cd zshrc-config \
-&& sudo apt install zsh ruby ruby-dev ack neofetch yt-dlp zsh-syntax-highlighting zsh-autosuggestions fzf vim nano python3 pip \
+sudo apt install zsh ruby ruby-dev ack neofetch yt-dlp zsh-syntax-highlighting zsh-autosuggestions fzf vim nano python3 pip \
 && sudo gem install colorls \
 && git clone https://github.com/marlonrichert/zsh-autocomplete.git \
 && sudo mv zsh-autocomplete /usr/share/ \
