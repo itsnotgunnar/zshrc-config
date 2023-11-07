@@ -29,31 +29,74 @@ The `.zshrc` configuration file includes:
 
 To use this configuration on a Linux system, follow these steps:
 
-1. Ensure you have all of the necessary packages installed on your system. If not, you can install them using your package manager. For example, on Ubuntu, you would use `sudo apt install zsh git ruby ruby-dev ack neofetch yt-dlp zsh-syntax-highlighting zsh-autosuggestions fzf vim nano python3 pip`.
+1. Make sure that you have git installed
+   ```sh
+   sudo apt install git
+   ```, and have cloned the git repository, 'git clone https://github.com/itsnotgunnar/zshrc-config.git'.
 
-2. Install the colorls gem. On Ubuntu, you can do this with `sudo gem install colorls`.
+2. Clone the `zshrc-config` repository:
+   ```sh
+   git clone https://github.com/itsnotgunnar/zshrc-config.git
+   ```
 
-3. Clone this repository and zsh-autocomplete to your local machine using `git clone https://github.com/<username>/zshrc-config.git && git clone https://github.com/marlonrichert/zsh-autocomplete && sudo mv zsh-autocomplete /usr/share/`.
+3. Cd into the directory.
+   ```sh
+   cd zshrc-config
+   ```
 
-4. Copy the `.zshrc` file to your home directory using `cp zshrc-config/.zshrc ~/.zshrc`.
+4. Ensure that ubuntu.sh has the necessary permissions.
+   ```sh
+   chmod +x ubuntu.sh
+   ```
+   
+5. Run the script, which will install all of the necessary packages and repos on your system (excluding conda), as well as set Zsh as your default terminal.
+   ```sh
+   ./ubuntu.sh
+   ```
 
-5. Change the default shell to be zsh using 'chsh -s $(which zsh)'
-
-6. Source the new `.zshrc` file using `source ~/.zshrc`.
+6. Restart your computer, or run the new .zshrc file to get instant access to the new terminal.
+   ```sh
+   zsh
+   ```
 
 ### macOS
 
-To use this configuration on a macOS system, follow these steps:
+To use this configuration on a Mac system, follow these steps:
 
-1. Ensure you have Zsh and Git installed on your system. If not, you can install them using Homebrew with `brew install zsh git ruby ruby-dev ack neofetch yt-dlp zsh-syntax-highlighting zsh-autosuggestions fzf vim nano nvm`.
+1. Install Homebrew if it's not already installed. You can install Homebrew by running the following command in the terminal:
+   ```sh
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
 
-2. Install Ruby and the colorls gem. You can do this with `brew install ruby ruby-dev` and then `sudo gem install colorls`.
+2. Install git using Homebrew:
+   ```sh
+   brew install git
+   ```
 
-3. Clone this repository and zsh-autocomplete to your local machine using `git clone https://github.com/<username>/zshrc-config.git && git clone https://github.com/marlonrichert/zsh-autocomplete && sudo mv zsh-autocomplete /usr/share/`.
+3. Clone the `zshrc-config` repository:
+   ```sh
+   git clone https://github.com/itsnotgunnar/zshrc-config.git
+   ```
 
-4. Copy the `.zshrc` file to your home directory using `cp zshrc-config/.zshrc ~/.zshrc`.
+4. Change directory to the cloned repository:
+   ```sh
+   cd zshrc-config
+   ```
 
-5. Source the new `.zshrc` file using `source ~/.zshrc`.
+5. Ensure that the macOS equivalent of `ubuntu.sh` (let's call it `macos.sh`) has the necessary permissions:
+   ```sh
+   chmod +x macos.sh
+   ```
+
+6. Run the script, which will install all of the necessary packages and repos on your system (excluding conda), as well as set Zsh as your default terminal.
+   ```sh
+   ./mac.sh
+   ```
+
+7. Restart your computer, or run the new .zshrc file to get instant access to the new terminal.
+   ```sh
+   zsh
+   ```
 
 ## Setting Up
 
