@@ -32,7 +32,7 @@ To use this configuration on a Linux system, follow these steps:
 1. Make sure that you have git installed
    ```sh
    sudo apt install git
-   ```, and have cloned the git repository, 'git clone https://github.com/itsnotgunnar/zshrc-config.git'.
+   ```
 
 2. Clone the `zshrc-config` repository:
    ```sh
