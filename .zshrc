@@ -88,7 +88,7 @@ if [ -f /usr/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh ]; then
   zstyle ':autocomplete:tab:*' widget-style menu-select
   zstyle ':autocomplete:*' min-input 2
   # These bindings may cause trouble, depending on your specific system
-  bindkey '^[[A' up-line-or-history
+  bindkey '^[[A' up-line-or-history # FIX
   bindkey '^[[B' down-line-or-history
 fi
 
