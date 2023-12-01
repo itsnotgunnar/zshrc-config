@@ -123,7 +123,7 @@ Contributions are welcome! If you have suggestions or improvements, feel free to
 
 ## License
 
-This project will be licensed under the MIT License, once it is more comprehensive and worth doing.
+Feel free to do whatever you please.
 
 ## Acknowledgments
 
